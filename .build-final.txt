@@ -1,0 +1,55 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.3.1 (Turbopack)
+✓ Running next.config.ts took 29ms
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead.
+
+  To migrate automatically, run:
+  npx @next/codemod@canary middleware-to-proxy .
+
+  Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ Compiled successfully in 919ms
+  Running TypeScript ...
+  Finished TypeScript in 3.5s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/28) ...
+  Generating static pages using 11 workers (7/28) 
+  Generating static pages using 11 workers (14/28) 
+  Generating static pages using 11 workers (21/28) 
+✓ Generating static pages using 11 workers (28/28) in 1129ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /admin
+├ ○ /admin/tenants
+├ ○ /admin/tenants/company
+├ ○ /admin/tenants/new
+├ ○ /admin/users
+├ ○ /admin/users/new
+├ ƒ /api/health
+├ ○ /collections
+├ ○ /contact
+├ ○ /dashboard
+├ ○ /demo
+├ ○ /login
+├ ○ /stones
+└   /stones/[slug]
+  ├ ● /stones/marble-white-alborz
+  ├ ● /stones/travertine-cream-atashkooh
+  ├ ● /stones/granite-black-natanz
+  └ ● [+7 more paths]
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
