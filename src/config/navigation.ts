@@ -19,6 +19,7 @@ export const storefrontNav: NavItem[] = [
   { title: "محصولات", href: "/stones" },
   { title: "گالری", href: "/collections" },
   { title: "گالری اجرا شده", href: "/projects" },
+  { title: "آموزش و دانشنامه", href: "/learn" },
   { title: "درباره ما", href: "/about" },
   { title: "تماس با ما", href: "/contact" },
 ];

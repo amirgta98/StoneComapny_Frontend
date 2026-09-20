@@ -55,4 +55,5 @@ export {
   SelectScrollDownButton,
 } from "./select";
 export { Tabs, TabsList, TabsTrigger, TabsContent } from "./tabs";
+export { Switch, type SwitchProps } from "./switch";
 export { Toaster } from "./sonner";

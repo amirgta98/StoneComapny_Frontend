@@ -182,7 +182,7 @@ export default function Home() {
                 eyebrow="دانستنی های سنگ"
                 title="آخرین مقالات"
                 description="راهنمای انتخاب، نگهداری و روندهای روز سنگ طبیعی را از زبان کارشناسان ما بخوانید."
-                viewAllHref="/articles"
+                viewAllHref="/learn"
               />
             </div>
           </section>

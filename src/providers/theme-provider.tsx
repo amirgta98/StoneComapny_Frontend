@@ -25,7 +25,7 @@ export type ThemeTokens = {
   fontHeading: string;
 };
 
-const defaultTokens: ThemeTokens = {
+export const defaultTokens: ThemeTokens = {
   primary: "#8b5e34",
   primaryForeground: "#fafaf9",
   secondary: "#f5f0ea",
